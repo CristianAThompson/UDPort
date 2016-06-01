@@ -33,6 +33,9 @@ form {
   position: fixed;
   width: 256px;
   z-index: -1;
+  /*Applied Will-Change to all mover objects to further smooth scroll*/
+  will-change: transform;
+  backface-visibility: hidden;
 }
 
 .randomPizzaContainer {

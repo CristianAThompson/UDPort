@@ -1,19 +1,23 @@
-## Website Performance Optimization portfolio project
+# Website Performance Optimization portfolio project
 
-### Getting started
+## Getting started
 
-#To get view this page simply access it on github pages here: [Click here to be directed.](http://cristianathompson.github.io/UDPort)
+###To get view this page simply access it on github pages here: [Click here to be directed.](http://cristianathompson.github.io/UDPort)
 
 It's a fairly simple web page with a few links one of which is a pizzeria web page built in Javascript which has been optimized.
 
-###Changes/Bug Fixes
+##Changes/Bug Fixes
 
-* Applied the style sheet for inde.html to an inline style tag to optimize page load time
-* Minified Images to prevent load lag associated with image resizing from browser
-* Within app.js of view/js modified how javascript handled resizing of the pizzas
-* Within app.js of view/js declared document information request outside of scroll update function to reduce jank
+* Applied the style sheet for inde.html to an inline style tag to optimize page load time _05/31/2016_
+* Minified Images to prevent load lag associated with image resizing from browser _05/31/2016_
+* Within app.js of view/js modified how javascript handled resizing of the pizzas _05/31/2016_
+* Within app.js of view/js declared document information request outside of scroll update function to reduce jank _05/31/2016_
+* Optimized variable declarations at lines 464, 502, 526, and 528 _06/01/2016_
+* Moved document declaration outside of loop at line 526 _06/01/2016_
+* Reduced number of present background pizza objects to 32 at line 530 _06/01/2016_
+* Added backface-visibility and will-change CSS elements to mover class
 
-### Sample Portfolios
+## Sample Portfolios
 
 Feeling uninspired by the portfolio? Here's a list of cool portfolios I found after a few minutes of Googling.
 
